@@ -1,0 +1,16 @@
+# Requirements pour VideoModerator Discord Bot
+# Dépendances Python nécessaires au fonctionnement du bot
+
+# Discord.py - Bibliothèque principale pour bot Discord
+discord.py>=2.6.3
+
+# Bibliothèques utilisées par discord.py
+aiohttp>=3.8.0
+chardet>=4.0.0
+multidict>=6.0.0
+idna>=3.4
+yarl>=1.7.0
+
+# Utilitaires pour expressions régulières et gestion des fichiers
+# (inclus dans la bibliothèque standard Python)
+# re, os, asyncio sont déjà inclus
